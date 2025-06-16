@@ -1,0 +1,139 @@
+@use "../../base/colors" as *;
+
+.table {
+    border: none;
+    width: 100%;
+
+    .thead {
+        border-bottom: 2px solid black;
+
+        .tr {
+            .th {
+                text-align: start;
+                font-size: 24px;
+                padding: 10px 10px 20px 10px;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-family: var(--font-roboto);
+            }
+        }
+    }
+
+    .tbody {
+        .tr {
+            &:nth-child(even) {
+                background-color: rgba(1, 97, 95, .6);
+            }
+
+            &:nth-child(odd) {
+                background-color: $teal;
+            }
+
+            .td {
+                .consult-pupile {
+                    &:hover {
+                        background-color: transparent;
+                        border-color: white;
+
+                        img {
+                            filter: brightness(0) invert(1);
+                        }
+                    }
+                }
+            }
+
+            &.add-pupil {
+                background-color: $blue2;
+
+                .add-pupil-content {
+                    cursor: pointer;
+                }
+
+                .add-pupil-content {
+                    text-transform: uppercase;
+                    display: flex;
+                    align-items: center;
+                    background-color: white;
+                    color: $blue2;
+                    width: fit-content;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    transition: all .3s;
+                    min-width: 150px;
+                    overflow: hidden;
+                    border: none;
+                    outline: none;
+
+                    .add-pupil-plus {
+                        font-size: 28px;
+                        transition: font-size .3s;
+                    }
+                }
+            }
+
+            td {
+
+                &.select {
+                    padding: 10px 6px;
+                }
+
+                padding: 10px;
+                color: white;
+                font-size: 24px;
+
+                .pupil-panel {
+                    display: flex;
+                    gap: 10px;
+                }
+
+                .consult-pupile {
+                    padding: 5px;
+                    display: flex;
+                    background-color: white;
+                    border-radius: 5px;
+                    width: fit-content;
+                    cursor: pointer;
+                    transition: background-color .3s;
+                    border: 1px solid transparent;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        object-fit: contain;
+                        transition: all .3s;
+                    }
+                }
+
+                input {
+                    border: none;
+                    outline: none;
+                    background-color: transparent;
+                    font-size: 24px;
+                    color: white;
+                    padding: 0;
+
+                    &::placeholder {
+                        color: rgba(255, 255, 255, 0.8);
+                    }
+                }
+
+                select {
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                    background: none;
+                    color: white;
+                    font-size: 24px;
+                    padding: 0;
+                    font-family: 'Oswald';
+                    padding: 0;
+                    margin: 0;
+
+                    option {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

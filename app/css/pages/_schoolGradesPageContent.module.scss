@@ -1,0 +1,73 @@
+@use "../base/colors" as colors;
+
+.schoolGradesPageContent{
+    
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    flex-direction: column;
+    margin: 0 auto;
+    .container{
+        gap:20px;
+        .grades{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            gap:50px;
+            .grade{
+                width: 100%;
+                flex:1;
+                height: 100%;
+                border:1px solid rgba(0,0,0, .25);
+                border-radius: 10px;
+                overflow: hidden;
+                transition: all .3s;
+                .link{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 150px;
+                    text-decoration: none;
+                    color:white;
+                    font-family: Oswald;
+                    font-size: 40px;
+                    text-transform: uppercase;
+                    transition:all .3s;
+                    &:hover{
+                        transform: scale(1.25);
+                    }
+                }
+            }
+            .ce2{
+                background-color: rgba(143, 25, 45, .6);
+                &:hover{
+                    background-color: rgba(143, 25, 45, .8);
+                }
+                .link{
+                    text-shadow: 2px 3px 1px colors.$red;
+                }
+            }
+            .cm1{
+                background-color: rgba(28, 42, 133, .6);
+                &:hover{
+                    background-color: rgba(28, 42, 133, .8);
+                }
+                .link{
+                    text-shadow: 2px 3px 1px colors.$dark_blue;
+                }
+                
+            }
+            .cm2{
+                background-color: rgba(1, 97, 95, .6);
+                &:hover{
+                    background-color: rgba(1, 97, 95, .8);
+                }
+                .link{
+                    text-shadow: 2px 3px 1px colors.$teal;
+                }
+
+            }
+        }
+    }
+}

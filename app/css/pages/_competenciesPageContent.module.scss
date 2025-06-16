@@ -1,0 +1,16 @@
+@use "../base/colors";
+
+.competenciesPageContent{
+    
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    flex-direction: column;
+    margin: 0 auto;
+    .subjectsContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}

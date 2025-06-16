@@ -1,0 +1,35 @@
+@use "../../base/colors";
+
+.tr {
+    &:nth-child(even) {
+        background-color: rgba(1, 97, 95, .6);
+    }
+
+    &:nth-child(odd) {
+        background-color: colors.$teal;
+    }
+
+    .td {
+        color:white;
+        font-family: var(--font-roboto);
+        font-weight: 500;
+        font-size: 24px;
+        padding:5px;
+        .consultPupil {
+            
+        color:white;
+        font-family: var(--font-roboto);
+        font-weight: 500;
+        font-size: 24px;
+        padding:5px;
+            &:hover {
+                background-color: transparent;
+                border-color: white;
+
+                img {
+                    filter: brightness(0) invert(1);
+                }
+            }
+        }
+    }
+}

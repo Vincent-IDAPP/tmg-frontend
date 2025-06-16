@@ -1,0 +1,51 @@
+@use "../../base/colors";
+
+.addPupil {
+    background-color: colors.$blue2;
+
+    .inputCell {
+        padding: 10px 5pxs;
+
+        input {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            font-family: Oswald;
+            font-size: 24px;
+            color: white;
+            padding: 0;
+
+            &::placeholder {
+                color: rgba(255, 255, 255, 0.8);
+            }
+        }
+
+        &>span {
+            width: fit-content;
+            display: flex;
+            align-items: center;
+        }
+
+        .select {
+            padding: 10px 6px;
+        }
+    }
+
+    .addPupilContent {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        color: colors.$blue2;
+        width: fit-content;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: all .3s;
+        min-width: 150px;
+        overflow: hidden;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+    }
+}

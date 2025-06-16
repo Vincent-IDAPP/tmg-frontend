@@ -1,0 +1,39 @@
+@use "../base/colors";
+
+.button {
+    display:flex;
+    align-items: center;
+    width: fit-content;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    color: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s;
+    text-align: center;
+}
+
+.red {
+    color:white;
+    background-color: #c0392b;
+
+    &:hover {
+        background-color: #e74c3c;
+    }
+}
+.green {
+    color:white;
+    background-color: #2ecc71;
+
+    &:hover {
+        background-color: #1abc9c;
+    }
+}
+
+.img {
+    filter: brightness(0) invert(1);
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+}
