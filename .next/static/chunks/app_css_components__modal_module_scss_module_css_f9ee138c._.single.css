@@ -1,0 +1,28 @@
+/* [project]/app/css/components/_modal.module.scss.module.css [app-client] (css) */
+._modal-module-scss-module__JzKPkG__modal {
+  z-index: 1000;
+  background-color: #00000080;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+._modal-module-scss-module__JzKPkG__modal ._modal-module-scss-module__JzKPkG__container {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  max-width: 400px;
+  height: 100%;
+  max-height: 300px;
+  padding: 20px;
+  display: flex;
+}
+
+/*# sourceMappingURL=app_css_components__modal_module_scss_module_css_f9ee138c._.single.css.map*/

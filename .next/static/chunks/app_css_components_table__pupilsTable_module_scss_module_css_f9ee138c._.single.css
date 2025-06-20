@@ -1,0 +1,125 @@
+/* [project]/app/css/components/table/_pupilsTable.module.scss.module.css [app-client] (css) */
+._pupilsTable-module-scss-module__rmxBkW__table {
+  border: none;
+  width: 100%;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__thead {
+  border-bottom: 2px solid #000;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__thead ._pupilsTable-module-scss-module__rmxBkW__tr ._pupilsTable-module-scss-module__rmxBkW__th {
+  text-align: start;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  padding: 10px 10px 20px;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr:nth-child(2n) {
+  background-color: #01615f99;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr:nth-child(odd) {
+  background-color: #01615f;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr ._pupilsTable-module-scss-module__rmxBkW__td ._pupilsTable-module-scss-module__rmxBkW__consult-pupile:hover {
+  background-color: #0000;
+  border-color: #fff;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr ._pupilsTable-module-scss-module__rmxBkW__td ._pupilsTable-module-scss-module__rmxBkW__consult-pupile:hover img {
+  filter: brightness(0) invert();
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr._pupilsTable-module-scss-module__rmxBkW__add-pupil {
+  background-color: #7683d3;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr._pupilsTable-module-scss-module__rmxBkW__add-pupil ._pupilsTable-module-scss-module__rmxBkW__add-pupil-content {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #7683d3;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  align-items: center;
+  width: fit-content;
+  min-width: 150px;
+  padding: 5px 10px;
+  transition: all .3s;
+  display: flex;
+  overflow: hidden;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr._pupilsTable-module-scss-module__rmxBkW__add-pupil ._pupilsTable-module-scss-module__rmxBkW__add-pupil-content ._pupilsTable-module-scss-module__rmxBkW__add-pupil-plus {
+  font-size: 28px;
+  transition: font-size .3s;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td {
+  color: #fff;
+  padding: 10px;
+  font-size: 24px;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td._pupilsTable-module-scss-module__rmxBkW__select {
+  padding: 10px 6px;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td ._pupilsTable-module-scss-module__rmxBkW__pupil-panel {
+  gap: 10px;
+  display: flex;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td ._pupilsTable-module-scss-module__rmxBkW__consult-pupile {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #0000;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 5px;
+  transition: background-color .3s;
+  display: flex;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td ._pupilsTable-module-scss-module__rmxBkW__consult-pupile img {
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
+  transition: all .3s;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td input {
+  color: #fff;
+  background-color: #0000;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-size: 24px;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td input::placeholder {
+  color: #fffc;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td select {
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td select option {
+  color: #000;
+}
+
+/*# sourceMappingURL=app_css_components_table__pupilsTable_module_scss_module_css_f9ee138c._.single.css.map*/

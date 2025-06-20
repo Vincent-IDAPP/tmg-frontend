@@ -1,0 +1,37 @@
+# Étape 1 : Builder l'app Next.js
+FROM node:18-alpine AS builder
+
+WORKDIR /app
+
+# Copier package.json et package-lock.json (ou yarn.lock)
+COPY package*.json ./
+
+# Installer les dépendances (avec production=false car on a besoin des devDependencies pour build)
+RUN npm install
+
+# Copier tout le code source
+COPY . .
+
+# Builder l'app en mode production
+RUN npm run build
+
+# Étape 2 : Conteneur final pour exécuter l'app Next.js
+FROM node:18-alpine AS runner
+
+WORKDIR /app
+
+ENV NODE_ENV=production
+
+# Copier seulement ce qui est nécessaire depuis builder
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/next.config.mjs ./
+
+# Expose le port par défaut Next.js
+EXPOSE 3000
+
+# Commande de démarrage
+CMD ["npm", "start"]
+

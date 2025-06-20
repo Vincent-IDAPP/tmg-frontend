@@ -1,0 +1,42 @@
+/* [project]/app/css/components/_button.module.scss.module.css [app-client] (css) */
+._button-module-scss-module__miyqpq__button {
+  text-align: center;
+  width: fit-content;
+  color: inherit;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  align-items: center;
+  padding: 5px;
+  font-family: Roboto;
+  font-weight: 700;
+  transition: all .3s;
+  display: flex;
+}
+
+._button-module-scss-module__miyqpq__red {
+  color: #fff;
+  background-color: #c0392b;
+}
+
+._button-module-scss-module__miyqpq__red:hover {
+  background-color: #e74c3c;
+}
+
+._button-module-scss-module__miyqpq__green {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+._button-module-scss-module__miyqpq__green:hover {
+  background-color: #1abc9c;
+}
+
+._button-module-scss-module__miyqpq__img {
+  filter: brightness(0) invert();
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+
+/*# sourceMappingURL=app_css_components__button_module_scss_module_css_f9ee138c._.single.css.map*/

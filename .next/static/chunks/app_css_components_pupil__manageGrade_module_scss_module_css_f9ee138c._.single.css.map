@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/css/components/pupil/_manageGrade.module.scss.module.css"],"sourcesContent":[".manageGrade{display:flex;align-items:center;width:fit-content;text-align:center;border-radius:5px;padding:5px;color:inherit;font-weight:700;cursor:pointer;transition:all .3s;text-align:center;width:20px;height:20px}.NA{color:#fff;background-color:#8f192d}.NA:hover{background-color:rgba(143,25,45,.8)}.VA{color:#fff;background-color:#fa983a}.VA:hover{background-color:rgba(250,152,58,.8)}.A{color:#fff;background-color:#05c46b}.A:hover{background-color:rgba(5,196,107,.8)}.img{filter:brightness(0) invert(1);width:20px;height:20px;margin-top:3px}"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;AAAwN;;;;;AAAwC;;;;AAA8C;;;;;AAAwC;;;;AAA+C;;;;;AAAuC;;;;AAA6C"}}]
+}

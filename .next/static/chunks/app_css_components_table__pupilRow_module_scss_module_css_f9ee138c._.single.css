@@ -1,0 +1,37 @@
+/* [project]/app/css/components/table/_pupilRow.module.scss.module.css [app-client] (css) */
+._pupilRow-module-scss-module__7WsVia__tr:nth-child(2n) {
+  background-color: #01615f99;
+}
+
+._pupilRow-module-scss-module__7WsVia__tr:nth-child(odd) {
+  background-color: #01615f;
+}
+
+._pupilRow-module-scss-module__7WsVia__tr ._pupilRow-module-scss-module__7WsVia__td {
+  color: #fff;
+  font-family: var(--font-roboto);
+  width: 25%;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+._pupilRow-module-scss-module__7WsVia__tr ._pupilRow-module-scss-module__7WsVia__td._pupilRow-module-scss-module__7WsVia__managePupils {
+  gap: 10px;
+  display: flex;
+}
+
+._pupilRow-module-scss-module__7WsVia__tr ._pupilRow-module-scss-module__7WsVia__td._pupilRow-module-scss-module__7WsVia__managePupils ._pupilRow-module-scss-module__7WsVia__option {
+  cursor: pointer;
+  background-color: #ffffff80;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all .3s;
+  display: flex;
+}
+
+._pupilRow-module-scss-module__7WsVia__tr ._pupilRow-module-scss-module__7WsVia__td._pupilRow-module-scss-module__7WsVia__managePupils ._pupilRow-module-scss-module__7WsVia__option:hover {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=app_css_components_table__pupilRow_module_scss_module_css_f9ee138c._.single.css.map*/

@@ -1,0 +1,20 @@
+/* [project]/app/css/components/_textArea.module.scss.module.css [app-client] (css) */
+._textArea-module-scss-module__Jd4fLW__textArea {
+  resize: none;
+  background-color: #fffc;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+._textArea-module-scss-module__Jd4fLW__textArea::placeholder {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=app_css_components__textArea_module_scss_module_css_f9ee138c._.single.css.map*/

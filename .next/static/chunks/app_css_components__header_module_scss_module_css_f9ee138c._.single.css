@@ -1,0 +1,55 @@
+/* [project]/app/css/components/_header.module.scss.module.css [app-client] (css) */
+._header-module-scss-module__knAqLq__header {
+  z-index: 100;
+  background-color: #01615f;
+  border-bottom: 2px solid #01615f40;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+._header-module-scss-module__knAqLq__header ._header-module-scss-module__knAqLq__headerContainer {
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+._header-module-scss-module__knAqLq__header ._header-module-scss-module__knAqLq__headerContainer ._header-module-scss-module__knAqLq__ul {
+  gap: 20px;
+  display: flex;
+}
+
+._header-module-scss-module__knAqLq__header ._header-module-scss-module__knAqLq__headerContainer ._header-module-scss-module__knAqLq__ul ._header-module-scss-module__knAqLq__li {
+  min-width: 100px;
+  display: flex;
+}
+
+._header-module-scss-module__knAqLq__header ._header-module-scss-module__knAqLq__headerContainer ._header-module-scss-module__knAqLq__link {
+  color: #01615f;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 1px solid #0000;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .3s;
+  box-shadow: 0 2px 2px 3px #0000001a;
+}
+
+._header-module-scss-module__knAqLq__header ._header-module-scss-module__knAqLq__headerContainer ._header-module-scss-module__knAqLq__link:hover {
+  color: #01615f;
+  background-color: #fff;
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=app_css_components__header_module_scss_module_css_f9ee138c._.single.css.map*/

@@ -14,20 +14,21 @@
         font-family: var(--font-roboto);
         font-weight: 500;
         font-size: 24px;
-        padding:5px;
-        .consultPupil {
-            
-        color:white;
-        font-family: var(--font-roboto);
-        font-weight: 500;
-        font-size: 24px;
-        padding:5px;
-            &:hover {
-                background-color: transparent;
-                border-color: white;
+        padding:10px;
+        width: 25%;
+        &.managePupils {
+            display: flex;
+            gap:10px;
 
-                img {
-                    filter: brightness(0) invert(1);
+            .option{
+                display: flex;
+                background-color: rgba(255,255,255, .5);
+                padding:5px;
+                border-radius: 5px;
+                transition: all .3s;
+                cursor: pointer;
+                &:hover{
+                    transform:scale(1.2)
                 }
             }
         }

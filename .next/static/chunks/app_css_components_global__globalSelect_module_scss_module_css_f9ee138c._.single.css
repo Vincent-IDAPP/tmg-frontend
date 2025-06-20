@@ -1,0 +1,71 @@
+/* [project]/app/css/components/global/_globalSelect.module.scss.module.css [app-client] (css) */
+._globalSelect-module-scss-module__6jdTEG__globalSelect {
+  width: 100%;
+  max-width: 250px;
+  position: relative;
+}
+
+._globalSelect-module-scss-module__6jdTEG__select {
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transition: border .2s;
+  display: flex;
+}
+
+._globalSelect-module-scss-module__6jdTEG__select ._globalSelect-module-scss-module__6jdTEG__placeholder {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+._globalSelect-module-scss-module__6jdTEG__select ._globalSelect-module-scss-module__6jdTEG__openChevron {
+  transform: rotate(180deg);
+}
+
+._globalSelect-module-scss-module__6jdTEG__select ._globalSelect-module-scss-module__6jdTEG__chevron {
+  transition: all .3s;
+}
+
+._globalSelect-module-scss-module__6jdTEG__list {
+  opacity: 0;
+  pointer-events: none;
+  z-index: 10;
+  background: #fff;
+  width: 100%;
+  max-height: 0;
+  margin-top: 14px;
+  font-size: 24px;
+  transition: max-height .3s, opacity .3s;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #0000001a;
+}
+
+._globalSelect-module-scss-module__6jdTEG__list._globalSelect-module-scss-module__6jdTEG__open {
+  opacity: 1;
+  pointer-events: auto;
+  width: 100%;
+  max-height: 300px;
+}
+
+._globalSelect-module-scss-module__6jdTEG__option {
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+._globalSelect-module-scss-module__6jdTEG__option:hover {
+  background-color: #f5f5f5;
+}
+
+/*# sourceMappingURL=app_css_components_global__globalSelect_module_scss_module_css_f9ee138c._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/css/components/_header.module.scss.module.css"],"sourcesContent":[".header{position:fixed;z-index:100;top:0;width:100%;background-color:#01615f;border-bottom:2px solid rgba(1,97,95,.25)}.header .headerContainer{display:flex;justify-content:space-between;align-items:center;width:100%;max-width:1200px;margin:0 auto;padding:20px;color:#fff}.header .headerContainer .ul{display:flex;gap:20px}.header .headerContainer .ul .li{min-width:100px;display:flex}.header .headerContainer .link{color:#01615f;text-decoration:none;transition:all .3s;font-weight:400;padding:5px;font-size:20px;background-color:#fff;border:1px solid rgba(0,0,0,0);border-radius:5px;text-align:center;font-family:Roboto;text-transform:uppercase;font-weight:500;box-shadow:0 2px 2px 3px rgba(0,0,0,.1);width:100%}.header .headerContainer .link:hover{background-color:#fff;color:#01615f;transform:scale(1.05)}"],"names":[],"mappings":"AAAA;;;;;;;;;AAAuH;;;;;;;;;;;AAAyJ;;;;;AAAmD;;;;;AAA8D;;;;;;;;;;;;;;;;;AAAwU"}}]
+}

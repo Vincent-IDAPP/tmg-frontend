@@ -10,15 +10,19 @@ const PupilPageContent = ({ pupil, pupilGrades, subjects, subSubjects, competenc
   const [data, setData] = useState(pupilGrades)
   const grades = ["A", "VA", "NA"]
 
-  const manageGrade = async (grade, competency, currentGrade) => {
+  const manageGrade = async (competency, currentGrade) => {
     let payload = {
       pupil_id: pupil.id,
       subject_id: competency.subject_id,
       subsubject_id: competency.subsubject_id,
       subject_id: competency.subject_id,
       competency_id: competency.id,
-      grade: grade,
+      grade_name: currentGrade.grade_name,
+      grade_value: currentGrade.grade_value,
     }
+
+    console.log(currentGrade);
+
     if (!currentGrade) {
       try {
         const res = await fetch(`http://localhost:3000/api/grades`, {
@@ -58,8 +62,8 @@ const PupilPageContent = ({ pupil, pupilGrades, subjects, subSubjects, competenc
     }
     setReload(true)
   }
-  const handleClick = (grade, competency, currentGrade) => {
-    manageGrade(grade, competency, currentGrade)
+  const handleClick = (competency, currentGrade) => {
+    manageGrade(competency, currentGrade)
   }
   const findGrade = (competencyId) => {
     return data.find((grade) => grade.competencyId === competencyId)
@@ -79,7 +83,6 @@ const PupilPageContent = ({ pupil, pupilGrades, subjects, subSubjects, competenc
     }
   }
 
-  console.log(pupil);
   
   useEffect(() => {
     if (reload === true) {
@@ -115,7 +118,7 @@ const PupilPageContent = ({ pupil, pupilGrades, subjects, subSubjects, competenc
                                     <div className={styles.manageGrade}>
                                       {grades?.map((grade, index) => {
                                         return (
-                                          <ManageGrade currentGrade={currentGrade?.grade ?? ""} key={index} type={grade} handleClick={() => handleClick(grade, competency, currentGrade)} />
+                                          <ManageGrade currentGrade={currentGrade?.grade_name ?? ""} key={index} type={grade} handleClick={() => handleClick(competency, currentGrade)} />
                                         )
                                       })}
                                     </div>

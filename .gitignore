@@ -12,7 +12,6 @@ build/
 .env.*
 
 # Next.js (frontend)
-.next/
 out/
 
 # Coverage

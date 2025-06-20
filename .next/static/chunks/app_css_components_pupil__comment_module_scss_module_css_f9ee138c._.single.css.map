@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/css/components/pupil/_comment.module.scss.module.css"],"sourcesContent":[".comment{flex:1;width:100%;display:flex}"],"names":[],"mappings":"AAAA"}}]
+}

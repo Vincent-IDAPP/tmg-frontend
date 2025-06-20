@@ -1,0 +1,52 @@
+/* [project]/app/css/components/pupil/_manageGrade.module.scss.module.css [app-client] (css) */
+._manageGrade-module-scss-module__vv8tOG__manageGrade {
+  text-align: center;
+  width: fit-content;
+  color: inherit;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  font-weight: 700;
+  transition: all .3s;
+  display: flex;
+}
+
+._manageGrade-module-scss-module__vv8tOG__NA {
+  color: #fff;
+  background-color: #8f192d;
+}
+
+._manageGrade-module-scss-module__vv8tOG__NA:hover {
+  background-color: #8f192dcc;
+}
+
+._manageGrade-module-scss-module__vv8tOG__VA {
+  color: #fff;
+  background-color: #fa983a;
+}
+
+._manageGrade-module-scss-module__vv8tOG__VA:hover {
+  background-color: #fa983acc;
+}
+
+._manageGrade-module-scss-module__vv8tOG__A {
+  color: #fff;
+  background-color: #05c46b;
+}
+
+._manageGrade-module-scss-module__vv8tOG__A:hover {
+  background-color: #05c46bcc;
+}
+
+._manageGrade-module-scss-module__vv8tOG__img {
+  filter: brightness(0) invert();
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+
+/*# sourceMappingURL=app_css_components_pupil__manageGrade_module_scss_module_css_f9ee138c._.single.css.map*/

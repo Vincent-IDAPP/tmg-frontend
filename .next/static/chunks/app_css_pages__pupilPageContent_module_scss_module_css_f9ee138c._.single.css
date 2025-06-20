@@ -1,0 +1,99 @@
+/* [project]/app/css/pages/_pupilPageContent.module.scss.module.css [app-client] (css) */
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent {
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer {
+  flex-direction: column;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer {
+  background-color: #5caa9d;
+  border: 2px solid #00000040;
+  flex-direction: column;
+  padding: 40px 20px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subjectName {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 3px 1px #01615f;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 700;
+  position: relative;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer {
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+  margin-left: 10px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject {
+  flex-direction: column;
+  gap: 50px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer {
+  flex-direction: column;
+  flex: 1;
+  gap: 40px;
+  display: flex;
+  position: relative;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectName {
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px #00000080;
+  flex: 1;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__competencies {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__competencies ._pupilPageContent-module-scss-module__vHumUG__competency {
+  align-items: center;
+  padding: 0 20px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__competencies ._pupilPageContent-module-scss-module__vHumUG__competency ._pupilPageContent-module-scss-module__vHumUG__competencyName {
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px #00000080;
+  flex: 1;
+  font-family: Roboto;
+  font-size: 32px;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__competencies ._pupilPageContent-module-scss-module__vHumUG__competency ._pupilPageContent-module-scss-module__vHumUG__manageGrade {
+  flex: 1;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__competencies ._pupilPageContent-module-scss-module__vHumUG__competency ._pupilPageContent-module-scss-module__vHumUG__manageComment {
+  flex: 1;
+}
+
+/*# sourceMappingURL=app_css_pages__pupilPageContent_module_scss_module_css_f9ee138c._.single.css.map*/

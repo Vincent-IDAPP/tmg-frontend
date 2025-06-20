@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/css/components/global/_globalSelect.module.scss.module.css"],"sourcesContent":[".globalSelect{position:relative;width:100%;max-width:250px}.select{width:100%;display:flex;justify-content:space-between;align-items:center;cursor:pointer;transition:border .2s ease}.select .placeholder{color:#fff;font-family:Roboto;text-transform:uppercase;font-weight:500;font-size:24px}.select .openChevron{transform:rotate(180deg)}.select .chevron{transition:all .3s}.list{position:absolute;top:100%;left:0;width:100%;background:#fff;box-shadow:0 5px 15px rgba(0,0,0,.1);overflow:hidden;max-height:0;opacity:0;pointer-events:none;transition:max-height .3s ease,opacity .3s ease;z-index:10;margin-top:14px;font-size:24px}.list.open{max-height:300px;opacity:1;pointer-events:auto;width:100%}.option{padding:10px;width:100%;cursor:pointer;font-family:Roboto;font-weight:500;font-size:16px;text-transform:uppercase}.option:hover{background-color:#f5f5f5}"],"names":[],"mappings":"AAAA;;;;;;AAA2D;;;;;;;;;AAA2H;;;;;;;;AAA2G;;;;AAA8C;;;;AAAoC;;;;;;;;;;;;;;;;;AAA6P;;;;;;;AAAqE;;;;;;;;;;AAA0H"}}]
+}

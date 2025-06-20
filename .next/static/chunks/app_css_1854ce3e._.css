@@ -1,0 +1,236 @@
+/* [project]/app/css/components/_heading.module.scss.module.css [app-client] (css) */
+._heading-module-scss-module__9ns0Ta__heading {
+  margin: 50px 0;
+}
+
+._heading-module-scss-module__9ns0Ta__heading ._heading-module-scss-module__9ns0Ta__title {
+  font-family: var(--font-roboto);
+  text-transform: uppercase;
+  text-shadow: 2px 3px 1px #01615f;
+  font-size: 44px;
+  font-weight: 500;
+}
+
+
+/* [project]/app/css/components/pupil/_manageGrade.module.scss.module.css [app-client] (css) */
+._manageGrade-module-scss-module__vv8tOG__manageGrade {
+  text-align: center;
+  width: fit-content;
+  color: inherit;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  font-weight: 700;
+  transition: all .3s;
+  display: flex;
+}
+
+._manageGrade-module-scss-module__vv8tOG__NA {
+  color: #fff;
+  background-color: #8f192d;
+}
+
+._manageGrade-module-scss-module__vv8tOG__NA:hover {
+  background-color: #8f192dcc;
+}
+
+._manageGrade-module-scss-module__vv8tOG__VA {
+  color: #fff;
+  background-color: #fa983a;
+}
+
+._manageGrade-module-scss-module__vv8tOG__VA:hover {
+  background-color: #fa983acc;
+}
+
+._manageGrade-module-scss-module__vv8tOG__A {
+  color: #fff;
+  background-color: #05c46b;
+}
+
+._manageGrade-module-scss-module__vv8tOG__A:hover {
+  background-color: #05c46bcc;
+}
+
+._manageGrade-module-scss-module__vv8tOG__img {
+  filter: brightness(0) invert();
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+
+
+/* [project]/app/css/components/_button.module.scss.module.css [app-client] (css) */
+._button-module-scss-module__miyqpq__button {
+  text-align: center;
+  width: fit-content;
+  color: inherit;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  align-items: center;
+  padding: 5px;
+  font-family: Roboto;
+  font-weight: 700;
+  transition: all .3s;
+  display: flex;
+}
+
+._button-module-scss-module__miyqpq__red {
+  color: #fff;
+  background-color: #c0392b;
+}
+
+._button-module-scss-module__miyqpq__red:hover {
+  background-color: #e74c3c;
+}
+
+._button-module-scss-module__miyqpq__green {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+._button-module-scss-module__miyqpq__green:hover {
+  background-color: #1abc9c;
+}
+
+._button-module-scss-module__miyqpq__img {
+  filter: brightness(0) invert();
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+
+
+/* [project]/app/css/components/_textArea.module.scss.module.css [app-client] (css) */
+._textArea-module-scss-module__Jd4fLW__textArea {
+  resize: none;
+  background-color: #fffc;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+._textArea-module-scss-module__Jd4fLW__textArea::placeholder {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+
+/* [project]/app/css/components/pupil/_comment.module.scss.module.css [app-client] (css) */
+._comment-module-scss-module__4HMw8G__comment {
+  flex: 1;
+  width: 100%;
+  display: flex;
+}
+
+
+/* [project]/app/css/pages/_pupilPageContent.module.scss.module.css [app-client] (css) */
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent {
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer {
+  flex-direction: column;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer {
+  background-color: #5caa9d;
+  border: 2px solid #00000040;
+  flex-direction: column;
+  padding: 40px 20px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subjectName {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 3px 1px #01615f;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 700;
+  position: relative;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer {
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+  margin-left: 10px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject {
+  flex-direction: column;
+  gap: 50px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer {
+  flex-direction: column;
+  flex: 1;
+  gap: 40px;
+  display: flex;
+  position: relative;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectName {
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px #00000080;
+  flex: 1;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__competencies {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__competencies ._pupilPageContent-module-scss-module__vHumUG__competency {
+  align-items: center;
+  padding: 0 20px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__competencies ._pupilPageContent-module-scss-module__vHumUG__competency ._pupilPageContent-module-scss-module__vHumUG__competencyName {
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px #00000080;
+  flex: 1;
+  font-family: Roboto;
+  font-size: 32px;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__competencies ._pupilPageContent-module-scss-module__vHumUG__competency ._pupilPageContent-module-scss-module__vHumUG__manageGrade {
+  flex: 1;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+  display: flex;
+}
+
+._pupilPageContent-module-scss-module__vHumUG__pupilPageContent ._pupilPageContent-module-scss-module__vHumUG__pupilContainer ._pupilPageContent-module-scss-module__vHumUG__subjectContainer ._pupilPageContent-module-scss-module__vHumUG__subSubjectsContainer ._pupilPageContent-module-scss-module__vHumUG__subSubject ._pupilPageContent-module-scss-module__vHumUG__subSubjectContainer ._pupilPageContent-module-scss-module__vHumUG__competencies ._pupilPageContent-module-scss-module__vHumUG__competency ._pupilPageContent-module-scss-module__vHumUG__manageComment {
+  flex: 1;
+}
+
+
+/*# sourceMappingURL=app_css_1854ce3e._.css.map*/

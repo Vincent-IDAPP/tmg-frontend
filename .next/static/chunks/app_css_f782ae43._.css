@@ -1,0 +1,347 @@
+/* [project]/app/css/pages/_homePageContent.module.scss.module.css [app-client] (css) */
+._homePageContent-module-scss-module__Kt40fq__homePageContent {
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto 100px;
+  display: flex;
+}
+
+
+/* [project]/app/css/components/table/_pupilsTable.module.scss.module.css [app-client] (css) */
+._pupilsTable-module-scss-module__rmxBkW__table {
+  border: none;
+  width: 100%;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__thead {
+  border-bottom: 2px solid #000;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__thead ._pupilsTable-module-scss-module__rmxBkW__tr ._pupilsTable-module-scss-module__rmxBkW__th {
+  text-align: start;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  padding: 10px 10px 20px;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr:nth-child(2n) {
+  background-color: #01615f99;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr:nth-child(odd) {
+  background-color: #01615f;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr ._pupilsTable-module-scss-module__rmxBkW__td ._pupilsTable-module-scss-module__rmxBkW__consult-pupile:hover {
+  background-color: #0000;
+  border-color: #fff;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr ._pupilsTable-module-scss-module__rmxBkW__td ._pupilsTable-module-scss-module__rmxBkW__consult-pupile:hover img {
+  filter: brightness(0) invert();
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr._pupilsTable-module-scss-module__rmxBkW__add-pupil {
+  background-color: #7683d3;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr._pupilsTable-module-scss-module__rmxBkW__add-pupil ._pupilsTable-module-scss-module__rmxBkW__add-pupil-content {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #7683d3;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  align-items: center;
+  width: fit-content;
+  min-width: 150px;
+  padding: 5px 10px;
+  transition: all .3s;
+  display: flex;
+  overflow: hidden;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr._pupilsTable-module-scss-module__rmxBkW__add-pupil ._pupilsTable-module-scss-module__rmxBkW__add-pupil-content ._pupilsTable-module-scss-module__rmxBkW__add-pupil-plus {
+  font-size: 28px;
+  transition: font-size .3s;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td {
+  color: #fff;
+  padding: 10px;
+  font-size: 24px;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td._pupilsTable-module-scss-module__rmxBkW__select {
+  padding: 10px 6px;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td ._pupilsTable-module-scss-module__rmxBkW__pupil-panel {
+  gap: 10px;
+  display: flex;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td ._pupilsTable-module-scss-module__rmxBkW__consult-pupile {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #0000;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 5px;
+  transition: background-color .3s;
+  display: flex;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td ._pupilsTable-module-scss-module__rmxBkW__consult-pupile img {
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
+  transition: all .3s;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td input {
+  color: #fff;
+  background-color: #0000;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-size: 24px;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td input::placeholder {
+  color: #fffc;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td select {
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  font-family: Oswald;
+  font-size: 24px;
+}
+
+._pupilsTable-module-scss-module__rmxBkW__table ._pupilsTable-module-scss-module__rmxBkW__tbody ._pupilsTable-module-scss-module__rmxBkW__tr td select option {
+  color: #000;
+}
+
+
+/* [project]/app/css/components/table/_pupilRow.module.scss.module.css [app-client] (css) */
+._pupilRow-module-scss-module__7WsVia__tr:nth-child(2n) {
+  background-color: #01615f99;
+}
+
+._pupilRow-module-scss-module__7WsVia__tr:nth-child(odd) {
+  background-color: #01615f;
+}
+
+._pupilRow-module-scss-module__7WsVia__tr ._pupilRow-module-scss-module__7WsVia__td {
+  color: #fff;
+  font-family: var(--font-roboto);
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+._pupilRow-module-scss-module__7WsVia__tr ._pupilRow-module-scss-module__7WsVia__td._pupilRow-module-scss-module__7WsVia__managePupils {
+  gap: 10px;
+  display: flex;
+}
+
+._pupilRow-module-scss-module__7WsVia__tr ._pupilRow-module-scss-module__7WsVia__td._pupilRow-module-scss-module__7WsVia__managePupils ._pupilRow-module-scss-module__7WsVia__option {
+  cursor: pointer;
+  background-color: #ffffff80;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all .3s;
+  display: flex;
+}
+
+._pupilRow-module-scss-module__7WsVia__tr ._pupilRow-module-scss-module__7WsVia__td._pupilRow-module-scss-module__7WsVia__managePupils ._pupilRow-module-scss-module__7WsVia__option:hover {
+  transform: scale(1.2);
+}
+
+
+/* [project]/app/css/components/table/_addPupilRow.module.scss.module.css [app-client] (css) */
+._addPupilRow-module-scss-module__Lza1Vq__addPupil {
+  background-color: #7683d3;
+}
+
+._addPupilRow-module-scss-module__Lza1Vq__addPupil ._addPupilRow-module-scss-module__Lza1Vq__td {
+  padding: 10px;
+}
+
+._addPupilRow-module-scss-module__Lza1Vq__addPupil ._addPupilRow-module-scss-module__Lza1Vq__td input {
+  color: #fff;
+  background-color: #0000;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+._addPupilRow-module-scss-module__Lza1Vq__addPupil ._addPupilRow-module-scss-module__Lza1Vq__td input::placeholder {
+  color: #fffc;
+}
+
+._addPupilRow-module-scss-module__Lza1Vq__addPupil ._addPupilRow-module-scss-module__Lza1Vq__td > span {
+  align-items: center;
+  width: fit-content;
+  display: flex;
+}
+
+._addPupilRow-module-scss-module__Lza1Vq__addPupil ._addPupilRow-module-scss-module__Lza1Vq__td ._addPupilRow-module-scss-module__Lza1Vq__select {
+  padding: 10px 6px;
+}
+
+._addPupilRow-module-scss-module__Lza1Vq__addPupil ._addPupilRow-module-scss-module__Lza1Vq__addPupilContent {
+  text-transform: uppercase;
+  color: #7683d3;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  align-items: center;
+  width: fit-content;
+  min-width: 150px;
+  padding: 5px 10px;
+  transition: all .3s;
+  display: flex;
+  overflow: hidden;
+}
+
+
+/* [project]/app/css/components/global/_globalSelect.module.scss.module.css [app-client] (css) */
+._globalSelect-module-scss-module__6jdTEG__globalSelect {
+  width: 100%;
+  max-width: 250px;
+  position: relative;
+}
+
+._globalSelect-module-scss-module__6jdTEG__select {
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transition: border .2s;
+  display: flex;
+}
+
+._globalSelect-module-scss-module__6jdTEG__select ._globalSelect-module-scss-module__6jdTEG__placeholder {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+._globalSelect-module-scss-module__6jdTEG__select ._globalSelect-module-scss-module__6jdTEG__openChevron {
+  transform: rotate(180deg);
+}
+
+._globalSelect-module-scss-module__6jdTEG__select ._globalSelect-module-scss-module__6jdTEG__chevron {
+  transition: all .3s;
+}
+
+._globalSelect-module-scss-module__6jdTEG__list {
+  opacity: 0;
+  pointer-events: none;
+  z-index: 10;
+  background: #fff;
+  width: 100%;
+  max-height: 0;
+  margin-top: 14px;
+  transition: max-height .3s, opacity .3s;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #0000001a;
+}
+
+._globalSelect-module-scss-module__6jdTEG__list._globalSelect-module-scss-module__6jdTEG__open {
+  opacity: 1;
+  pointer-events: auto;
+  width: 100%;
+  max-height: 300px;
+}
+
+._globalSelect-module-scss-module__6jdTEG__option {
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+._globalSelect-module-scss-module__6jdTEG__option:hover {
+  background-color: #f5f5f5;
+}
+
+
+/* [project]/app/css/components/_button.module.scss.module.css [app-client] (css) */
+._button-module-scss-module__miyqpq__button {
+  text-align: center;
+  width: fit-content;
+  color: inherit;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  align-items: center;
+  padding: 5px;
+  font-family: Roboto;
+  font-weight: 700;
+  transition: all .3s;
+  display: flex;
+}
+
+._button-module-scss-module__miyqpq__red {
+  color: #fff;
+  background-color: #c0392b;
+}
+
+._button-module-scss-module__miyqpq__red:hover {
+  background-color: #e74c3c;
+}
+
+._button-module-scss-module__miyqpq__green {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+._button-module-scss-module__miyqpq__green:hover {
+  background-color: #1abc9c;
+}
+
+._button-module-scss-module__miyqpq__img {
+  filter: brightness(0) invert();
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+
+
+/* [project]/app/css/components/_heading.module.scss.module.css [app-client] (css) */
+._heading-module-scss-module__9ns0Ta__heading {
+  margin: 50px 0;
+}
+
+._heading-module-scss-module__9ns0Ta__heading ._heading-module-scss-module__9ns0Ta__title {
+  font-family: var(--font-roboto);
+  text-transform: uppercase;
+  text-shadow: 2px 3px 1px #01615f;
+  font-size: 44px;
+  font-weight: 500;
+}
+
+
+/*# sourceMappingURL=app_css_f782ae43._.css.map*/

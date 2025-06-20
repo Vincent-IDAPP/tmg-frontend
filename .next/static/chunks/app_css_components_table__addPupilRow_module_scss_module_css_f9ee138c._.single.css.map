@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/css/components/table/_addPupilRow.module.scss.module.css"],"sourcesContent":[".addPupil{background-color:#7683d3}.addPupil .td{padding:10px}.addPupil .td input{border:none;outline:none;background-color:rgba(0,0,0,0);font-family:Roboto;font-size:24px;color:#fff;padding:0;width:100%}.addPupil .td input::placeholder{color:hsla(0,0%,100%,.8)}.addPupil .td>span{width:fit-content;display:flex;align-items:center}.addPupil .td .select{padding:10px 6px}.addPupil .addPupilContent{text-transform:uppercase;display:flex;align-items:center;background-color:#fff;color:#7683d3;width:fit-content;padding:5px 10px;border-radius:5px;transition:all .3s;min-width:150px;overflow:hidden;border:none;outline:none;cursor:pointer}"],"names":[],"mappings":"AAAA;;;;AAAmC;;;;AAA2B;;;;;;;;;;;AAA8I;;;;AAA0D;;;;;;AAAqE;;;;AAAuC"}}]
+}

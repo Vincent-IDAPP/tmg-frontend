@@ -1,0 +1,20 @@
+/* [project]/app/css/components/home/_homeModalContent.module.scss.module.css [app-client] (css) */
+._homeModalContent-module-scss-module__RAB3-G__deleteContent {
+  flex-direction: column;
+  gap: 40px;
+  display: flex;
+}
+
+._homeModalContent-module-scss-module__RAB3-G__deleteContent p {
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+._homeModalContent-module-scss-module__RAB3-G__deleteContent ._homeModalContent-module-scss-module__RAB3-G__buttons {
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  display: flex;
+}
+
+/*# sourceMappingURL=app_css_components_home__homeModalContent_module_scss_module_css_f9ee138c._.single.css.map*/
