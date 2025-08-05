@@ -12,7 +12,7 @@ export const authOptions = {
       },
       async authorize(credentials) {
         console.log("Authorize called with:", credentials);
-        const res = await fetch("http://nginx/api/login", {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/login`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
