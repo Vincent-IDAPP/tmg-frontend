@@ -1,40 +1,56 @@
 @use "../base/colors";
 
 .button {
-    display:flex;
-    align-items: center;
-    width: fit-content;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px;
-    color: inherit;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all .3s;
-    text-align: center;
-    font-family: Roboto;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+  font-family: Roboto;
+  border: 1px solid transparent;
 }
 
 .red {
-    color:white;
-    background-color: #c0392b;
+  color: white;
+  background-color: #c0392b;
 
-    &:hover {
-        background-color: #e74c3c;
-    }
+  &:hover {
+    background-color: #e74c3c;
+  }
 }
 .green {
-    color:white;
-    background-color: #2ecc71;
+  color: white;
+  background-color: #2ecc71;
 
-    &:hover {
-        background-color: #1abc9c;
-    }
+  &:hover {
+    background-color: #1abc9c;
+  }
+}
+
+.theme {
+  color: white;
+  transition: all 0.3s;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: colors.$teal;
+  border: 1px solid colors.$teal;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  &:hover {
+    background-color: colors.$tealOpacity;
+  }
 }
 
 .img {
-    filter: brightness(0) invert(1);
-    width: 20px;
-    height: 20px;
-    margin-top: 3px;
+  filter: brightness(0) invert(1);
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
 }

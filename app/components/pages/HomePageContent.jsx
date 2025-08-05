@@ -9,6 +9,8 @@ import Heading from "../Heading";
 import Modal from "../Modal";
 import HomeModalContent from "../home/HomeModalContent";
 const HomePageContent = ({ pupilsList }) => {
+
+  
   const [reload, setReload] = useState(false);
   const [data, setData] = useState(pupilsList);
   const [openModal, setOpenModal] = useState(false);

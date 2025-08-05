@@ -5,9 +5,10 @@
   color: inherit;
   cursor: pointer;
   text-align: center;
+  border: 1px solid #0000;
   border-radius: 5px;
   align-items: center;
-  padding: 5px;
+  padding: 10px 20px;
   font-family: Roboto;
   font-weight: 700;
   transition: all .3s;
@@ -30,6 +31,20 @@
 
 ._button-module-scss-module__miyqpq__green:hover {
   background-color: #1abc9c;
+}
+
+._button-module-scss-module__miyqpq__theme {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #01615f;
+  border: 1px solid #01615f;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all .3s;
+}
+
+._button-module-scss-module__miyqpq__theme:hover {
+  background-color: #01615fcc;
 }
 
 ._button-module-scss-module__miyqpq__img {

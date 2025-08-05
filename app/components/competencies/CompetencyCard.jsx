@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "@/app/css/components/competencies/_competencyCard.module.scss"
 import Button from '../Button'
 import Input from '../Input'
-import InputField from '../InputField'
+import InputField from '../global/InputField'
 import { useState, useEffect } from 'react'
 import Loader from '../Loader'
 import AddCompetency from './AddCompetency'

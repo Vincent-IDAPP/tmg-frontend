@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/css/pages/_subSubjectsPageContent.module.scss.module.css"],"sourcesContent":[".subSubjectsPageContent{display:flex;width:100%;max-width:1440px;flex-direction:column;margin:0 auto}.subSubjectsPageContent .subSubjectsContainer{display:flex;flex-wrap:wrap;gap:50px;width:100%}"],"names":[],"mappings":"AAAA;;;;;;;;AAAqG"}}]
+}

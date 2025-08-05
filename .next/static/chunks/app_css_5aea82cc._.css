@@ -1,0 +1,25 @@
+/* [project]/app/css/components/_heading.module.scss.module.css [app-client] (css) */
+._heading-module-scss-module__9ns0Ta__heading {
+  margin: 50px 0;
+}
+
+._heading-module-scss-module__9ns0Ta__heading ._heading-module-scss-module__9ns0Ta__title {
+  font-family: var(--font-roboto);
+  text-transform: uppercase;
+  text-shadow: 2px 3px 1px #01615f;
+  font-size: 44px;
+  font-weight: 500;
+}
+
+
+/* [project]/app/css/pages/_loginPageContent.module.scss.module.css [app-client] (css) */
+._loginPageContent-module-scss-module__l2Jr3G__loginPageContent {
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto 100px;
+  display: flex;
+}
+
+
+/*# sourceMappingURL=app_css_5aea82cc._.css.map*/

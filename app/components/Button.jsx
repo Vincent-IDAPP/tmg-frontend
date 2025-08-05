@@ -8,7 +8,8 @@ const Button = ({ hasImage = false, image, onClick, link, style, text, ...props 
       className={`${styles.button} ${styles[style]}`}
       onClick={onClick}
       style={{
-        borderRadius: props.borderRadius ?? "5px"
+        borderRadius: props.borderRadius ?? "5px",
+        margin: props.margin ?? "0"
       }}
     >
       {text}

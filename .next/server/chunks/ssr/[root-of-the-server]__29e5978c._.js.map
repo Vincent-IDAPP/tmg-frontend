@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///app/app/sessionProvider.js"],"sourcesContent":["\"use client\";\n\nimport { createContext, useContext } from \"react\";\nimport { useSession, signIn, signOut } from \"next-auth/react\";\n\nconst SessionContext = createContext(null);\n\nexport function SessionProvider({ children }) {\n  /* const { data: session, status } = useSession(); */\n\n  const login = (credentials) => signIn(\"credentials\", { ...credentials, redirect: false });\n\n  const logout = () => signOut({ redirect: false });\n\n  return (\n    <SessionContext.Provider value={{ login, logout }}>\n      {children}\n    </SessionContext.Provider>\n  );\n}\n\nexport function useSessionContext() {\n  return useContext(SessionContext);\n}\n"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAKA,MAAM,+BAAiB,CAAA,GAAA,qMAAA,CAAA,gBAAa,AAAD,EAAE;AAE9B,SAAS,gBAAgB,EAAE,QAAQ,EAAE;IAC1C,mDAAmD,GAEnD,MAAM,QAAQ,CAAC,cAAgB,CAAA,GAAA,8IAAA,CAAA,SAAM,AAAD,EAAE,eAAe;YAAE,GAAG,WAAW;YAAE,UAAU;QAAM;IAEvF,MAAM,SAAS,IAAM,CAAA,GAAA,8IAAA,CAAA,UAAO,AAAD,EAAE;YAAE,UAAU;QAAM;IAE/C,qBACE,8OAAC,eAAe,QAAQ;QAAC,OAAO;YAAE;YAAO;QAAO;kBAC7C;;;;;;AAGP;AAEO,SAAS;IACd,OAAO,CAAA,GAAA,qMAAA,CAAA,aAAU,AAAD,EAAE;AACpB","debugId":null}}]
+}

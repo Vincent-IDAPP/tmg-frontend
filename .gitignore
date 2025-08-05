@@ -28,7 +28,7 @@ coverage/
 # Misc
 *.log
 *.tgz
-
+Dockerfile.dev
 # TypeScript
 *.tsbuildinfo
 

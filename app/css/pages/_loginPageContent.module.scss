@@ -1,0 +1,19 @@
+@use "../base/colors";
+
+.loginPageContent{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 100px;
+    width: 100%;
+    max-width: 1440px;
+
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+        max-width: 650px;
+        width: 100%;
+        margin:0 auto;
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/css/components/_input.module.scss.module.css"],"sourcesContent":[".input{all:unset;padding:10px;background-color:hsla(0,0%,100%,.8);flex:1;font-family:Roboto;font-size:20px;border-radius:5px 0 0 5px;border:1px solid rgba(0,0,0,.8);width:100%}.input:-webkit-autofill,.input:-webkit-autofill:hover,.input:-webkit-autofill:focus,.input:-webkit-autofill:active{box-shadow:0 0 0 1000px #fff inset !important;-webkit-text-fill-color:#000 !important;transition:background-color 5000s ease-in-out 0s;font-size:inherit !important}.input::placeholder{font-family:Roboto;font-size:20px}"],"names":[],"mappings":"AAAA;;;;;;;;;;;;AAAgL;;;;;;;AAAuR"}}]
+}

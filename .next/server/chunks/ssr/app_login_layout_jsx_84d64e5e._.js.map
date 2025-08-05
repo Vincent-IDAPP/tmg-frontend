@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/vincentsechi/Documents/dev/Cours/TMG/frontend/app/login/layout.jsx"],"sourcesContent":["export default function LoginLayout({ children }) {\n  return (\n    <html lang=\"fr\">\n      <body>\n        <main style={{ padding: \"2rem\", textAlign: \"center\" }}>\n          {children}\n        </main>\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAe,SAAS,YAAY,EAAE,QAAQ,EAAE;IAC9C,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;sBACC,cAAA,8OAAC;gBAAK,OAAO;oBAAE,SAAS;oBAAQ,WAAW;gBAAS;0BACjD;;;;;;;;;;;;;;;;AAKX","debugId":null}}]
+}

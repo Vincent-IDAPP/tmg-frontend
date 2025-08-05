@@ -1,0 +1,83 @@
+/* [project]/app/css/components/_heading.module.scss.module.css [app-client] (css) */
+._heading-module-scss-module__9ns0Ta__heading {
+  margin: 50px 0;
+}
+
+._heading-module-scss-module__9ns0Ta__heading ._heading-module-scss-module__9ns0Ta__title {
+  font-family: var(--font-roboto);
+  text-transform: uppercase;
+  text-shadow: 2px 3px 1px #01615f;
+  font-size: 44px;
+  font-weight: 500;
+}
+
+
+/* [project]/app/css/pages/_loginPageContent.module.scss.module.css [app-client] (css) */
+._loginPageContent-module-scss-module__l2Jr3G__loginPageContent {
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto 100px;
+  display: flex;
+}
+
+
+/* [project]/app/css/components/_button.module.scss.module.css [app-client] (css) */
+._button-module-scss-module__miyqpq__button {
+  text-align: center;
+  width: fit-content;
+  color: inherit;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #0000;
+  border-radius: 5px;
+  align-items: center;
+  padding: 5px;
+  font-family: Roboto;
+  font-weight: 700;
+  transition: all .3s;
+  display: flex;
+}
+
+._button-module-scss-module__miyqpq__red {
+  color: #fff;
+  background-color: #c0392b;
+}
+
+._button-module-scss-module__miyqpq__red:hover {
+  background-color: #e74c3c;
+}
+
+._button-module-scss-module__miyqpq__green {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+._button-module-scss-module__miyqpq__green:hover {
+  background-color: #1abc9c;
+}
+
+._button-module-scss-module__miyqpq__theme {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #03391d;
+  border: 1px solid #03391d;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all .3s;
+}
+
+._button-module-scss-module__miyqpq__theme:hover {
+  color: #03391d;
+  background-color: #fff;
+}
+
+._button-module-scss-module__miyqpq__img {
+  filter: brightness(0) invert();
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+
+
+/*# sourceMappingURL=app_css_be4f6184._.css.map*/

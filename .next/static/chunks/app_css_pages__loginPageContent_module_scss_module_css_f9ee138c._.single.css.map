@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/css/pages/_loginPageContent.module.scss.module.css"],"sourcesContent":[".loginPageContent{display:flex;flex-direction:column;margin:0 auto 100px;width:100%;max-width:1440px}.loginPageContent .formContainer{display:flex;flex-direction:column;align-items:center;gap:20px;max-width:650px;width:100%;margin:0 auto}"],"names":[],"mappings":"AAAA;;;;;;;;AAAqG"}}]
+}

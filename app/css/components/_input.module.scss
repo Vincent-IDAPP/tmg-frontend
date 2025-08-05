@@ -1,17 +1,29 @@
 @use "../base/colors";
 
 .input {
-    outline: none;
-    border: none;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    flex: 1;
+  all: unset;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  flex: 1;
+  font-family: Roboto;
+  font-size: 20px; // ✅ Active le font-size ici
+  border-radius: 5px 0 0 5px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  width: 100%;
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #000 !important;
+    transition: background-color 5000s ease-in-out 0s;
+    font-size: inherit !important; // ✅ Hérite du parent
+  }
+
+  &::placeholder {
     font-family: Roboto;
     font-size: 20px;
-    border-radius: 5px 0 0 5px;
+  }
 
-    &::placeholder {
-        font-family: Roboto;
-        font-size: 20px;
-    }
 }

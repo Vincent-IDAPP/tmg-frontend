@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/middleware.js"],"sourcesContent":["import { getToken } from \"next-auth/jwt\";\nimport { NextResponse } from \"next/server\";\n\nexport async function middleware(request) {\n\n  const cookies = request.cookies;\n  console.log(cookies);\n  // Exemple : récupérer les cookies que tu sais possibles\n  const token = undefined;\n  \n  if (!token) {\n    return NextResponse.redirect(new URL(\"/connexion\", request.url));\n  }\n\n  return NextResponse.next();\n}\n\nexport const config = {\n  matcher: [\"/\", \"/portail\", \"/portail/sous-matieres\", \"/portail/competences\", \"/pupils\"]\n};\n"],"names":[],"mappings":";;;;AAAA;AACA;AAAA;;;AAEO,eAAe,WAAW,OAAO;IAEtC,MAAM,UAAU,QAAQ,OAAO;IAC/B,QAAQ,GAAG,CAAC;IACZ,wDAAwD;IACxD,MAAM,QAAQ;IAEd,IAAI,CAAC,OAAO;QACV,OAAO,6LAAA,CAAA,eAAY,CAAC,QAAQ,CAAC,IAAI,IAAI,cAAc,QAAQ,GAAG;IAChE;IAEA,OAAO,6LAAA,CAAA,eAAY,CAAC,IAAI;AAC1B;AAEO,MAAM,SAAS;IACpB,SAAS;QAAC;QAAK;QAAY;QAA0B;QAAwB;KAAU;AACzF"}}]
+}

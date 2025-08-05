@@ -809,12 +809,17 @@ table {
   display: flex;
 }
 
-._header-module-scss-module__knAqLq__header ._header-module-scss-module__knAqLq__headerContainer ._header-module-scss-module__knAqLq__ul {
+._header-module-scss-module__knAqLq__header ._header-module-scss-module__knAqLq__headerContainer ._header-module-scss-module__knAqLq__headerLogo {
+  justify-content: center;
+  display: flex;
+}
+
+._header-module-scss-module__knAqLq__header ._header-module-scss-module__knAqLq__headerContainer ._header-module-scss-module__knAqLq__navbar ._header-module-scss-module__knAqLq__ul {
   gap: 20px;
   display: flex;
 }
 
-._header-module-scss-module__knAqLq__header ._header-module-scss-module__knAqLq__headerContainer ._header-module-scss-module__knAqLq__ul ._header-module-scss-module__knAqLq__li {
+._header-module-scss-module__knAqLq__header ._header-module-scss-module__knAqLq__headerContainer ._header-module-scss-module__knAqLq__navbar ._header-module-scss-module__knAqLq__ul ._header-module-scss-module__knAqLq__li {
   min-width: 100px;
   display: flex;
 }

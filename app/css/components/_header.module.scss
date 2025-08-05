@@ -18,13 +18,22 @@
         padding: 20px;
         color: white;
 
-        .ul {
+        .headerLogo{/* 
+            flex:1; */
             display: flex;
-            gap: 20px;
+            justify-content: center;
+        }
 
-            .li {
-                min-width: 100px;
+        .navbar{
+            /* flex:1; */
+            .ul {
                 display: flex;
+                gap: 20px;
+    
+                .li {
+                    min-width: 100px;
+                    display: flex;
+                }
             }
         }
 

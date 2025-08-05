@@ -1,7 +1,9 @@
 import styles from "@/app/css/components/_heading.module.scss"
-const Heading = ({ title, description }) => {
+const Heading = ({ title, description, ...props }) => {
     return (
-        <div className={styles.heading}>
+        <div className={styles.heading} style={{
+            textAlign:props.textAlign ?? ""
+        }}>
             <h1 className={styles.title}>{title}</h1>
         </div>
     )

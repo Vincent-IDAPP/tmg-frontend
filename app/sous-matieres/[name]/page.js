@@ -1,5 +1,8 @@
 import React from 'react'
 import SubSubjectsPageContent from '@/app/components/pages/SubSubjectsPageContent'
+
+
+
 const SubSubjectsPage = async ({params}) => {
 
     const { name } = await params;

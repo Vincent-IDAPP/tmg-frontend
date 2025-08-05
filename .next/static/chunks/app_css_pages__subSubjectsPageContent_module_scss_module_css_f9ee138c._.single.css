@@ -1,0 +1,17 @@
+/* [project]/app/css/pages/_subSubjectsPageContent.module.scss.module.css [app-client] (css) */
+._subSubjectsPageContent-module-scss-module__43ph9W__subSubjectsPageContent {
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+._subSubjectsPageContent-module-scss-module__43ph9W__subSubjectsPageContent ._subSubjectsPageContent-module-scss-module__43ph9W__subSubjectsContainer {
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 100%;
+  display: flex;
+}
+
+/*# sourceMappingURL=app_css_pages__subSubjectsPageContent_module_scss_module_css_f9ee138c._.single.css.map*/

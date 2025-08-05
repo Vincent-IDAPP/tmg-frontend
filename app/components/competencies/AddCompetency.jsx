@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import Input from '../Input'
 import Button from '../Button'
-import InputField from '../InputField'
+import InputField from '../global/InputField'
 import Loader from '../Loader'
 const AddCompetency = ({ subjectId, subSubjectId, setReload, schoolGrade }) => {
 
